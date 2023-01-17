@@ -1,0 +1,7 @@
+.habit {
+    width: 48px;
+    height: 48px;
+    border: 1px solid purple;
+    border-radius: 8px;
+    background-color: purple;
+}
