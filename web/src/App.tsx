@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import Habit from './components/habit'
 import './styles/global.css';
+import Header from './components/header/header';
+import SummaryTable from './components/summary-table/summary-table';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <Habit completed={5} />
-      <Habit completed={2} />
-      <Habit completed={1} />
-    </>
+    <div className='w-screen h-screen flex justify-center items-center'>
+      <div className='w-full max-w-5xl px-6 flex flex-col gap-16'>        
+        <Header />
+        <SummaryTable />
+      </div>
+    </div>
   )
 }
 
