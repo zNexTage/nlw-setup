@@ -31,6 +31,8 @@ const SummaryTable = () => {
                 {
                     summaryDates.map(date => (
                         <HabitDay
+                            amount={5}
+                            completed={Math.round(Math.random() * 5)}
                             key={date.toString()}
                         />
                     ))
