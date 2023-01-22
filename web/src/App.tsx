@@ -1,4 +1,5 @@
 import './styles/global.css';
+import './lib/dayjs';
 import Header from './components/header/header';
 import SummaryTable from './components/summary-table/summary-table';
 
